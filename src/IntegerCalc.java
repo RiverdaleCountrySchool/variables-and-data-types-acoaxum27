@@ -6,5 +6,11 @@ public class IntegerCalc {
         int num2 = 5;
 
 
+System.out.println (num1+num2); //Addition
+System.out.println (num1-num2); //Subtraction
+System.out.println (num1*num2); //Multiplication
+System.out.println (num1/num2); //Division
+System.out.println (num1%num2); //Remainder
+
     }
 }
