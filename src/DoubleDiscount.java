@@ -1,7 +1,7 @@
 public class DoubleDiscount {
     public static void main(String[] args) {
-        double price = 25.99;
-        double discount = 0.15;
+        double price = Double.valueOf (args [0]);
+        double discount = Double.valueOf (args[1]);
         double dPrice = price*discount;
         double fPrice = price-dPrice;
 
